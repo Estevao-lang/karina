@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
+
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,500&family=Red+Hat+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Psicóloga Karina Beatriz Gangi 🍃</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon/favicon-96x96.png">
+</head>
+
+<body>
+  <header>
+  <div class="nav">
+            <a href="{{ route('home') }}"> <img class="logo" src="{{ asset('img/logo-sem-fundo.png') }}" style="max-width: 100%; max-height: 100%;" alt=""></a>
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+                <div class="nav-title">
+
+
+
+                </div>
+            </div>
+            <div class="nav-btn">
+                <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+            </div>
+
+            <div class="nav-links">
+                <a href="#servico">Serviços</a>
+                <a href="#ebook">E-book</a>
+                <a href="#artigo">Artigo</a>
+                <a href="login">Login</a>
+            </div>
+        </div>
+    </header>
+    <main>
+
+
+        <div class="banner">
+            <img class="banner" src="../img/banner.jpeg" alt="">
+           
+
+
+        </div>
+    </main>
+
+
+    <div class="separador">
+        <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+<defs>
+<path id="gentle-wave"
+d="M-160 44c30 0 
+   58-18 88-18s
+   58 18 88 18 
+   58-18 88-18 
+   58 18 88 18
+   v44h-352z" />
+ </defs>
+ <g class="parallax1">
+  <use xlink:href="#gentle-wave" x="50" y="3" fill=" #C4A484"/>
+ </g>
+   <g class="parallax2">
+  <use xlink:href="#gentle-wave" x="50" y="0" fill="	#FF8C00"/>
+   </g>
+     <g class="parallax3">
+  <use xlink:href="#gentle-wave" x="50" y="9" fill="#654321"/>
+  </g>
+   <g class="parallax4">
+  <use xlink:href="#gentle-wave" x="50" y="6" fill="orange"/>  
+ </g>
+</svg>
+
+    </div>
+<br>
+
+        <div class="profile1"><img class="profile" src="../img/profile.jpg" alt=""></div>
+
+
+        <div class="apresentacao">
+
+
+
+
+            <div class="apre_text">
+                <p>“Sou psicóloga clínica no consultório online com o foco no tratamento da depressão para jovens e adultos. Minha missão dentro da psicologia é diminuir o adoecimento mental entre as mulheres, principalmente a depressão, promovendo qualidade
+                    de vida, bem estar e empoderamento feminino. Graduada no Centro Universitário Adventista de São Paulo, com experiência em psicologia clínica, trabalhos voluntários, plantão psicológico e psicologia direcionada a alunos com necessidades
+                    especiais. Vivência em psicoterapia individual , dinâmicas de grupo, aplicação de testes psicológicos e psicologia em equipamentos do SUS. Desenvolvi projetos de intervenções com o uso do método Design Thinking. Apoio minhas práticas profissionais na abordagem da terapia cognitiva comportamental. Amo animais e tenho um espírito empreendedor. Sou proativa, criativa e dinâmica, além de estar sempre interessada
+                    a aprender. Muito prazer!”
+
+                    <br><br>
+                    <span > “De nada adianta viver sem saber o valor dela.” Psicóloga Karina Beatriz Gangi</span></p>
+            </div>
+        </div>
+
+   
+
+        <div class="grid-container grid-container--fit">
+            
+
+            <div class="grid-element1">
+            <div class="borda"> 
+               <div class="valores"><p>ÉTICA</p></div>    
+            
+              </div>
+            </div>
+            <div class="grid-element1">
+             <div class="borda">  
+                <div class="valores"><p>EXCELÊNCIA</p></div>    
+            
+              </div>
+            </div>
+            <div class="grid-element1">
+            <div class="borda">  
+                <div class="valores"><p>TRANSPARÊNCIA</p></div>     
+            
+              </div>
+            </div>
+            <div class="grid-element1">
+            <div class="borda">
+                <div class="valores"><p>GENTILEZA</p></div>  
+            
+              </div>
+            </div>
+
+            <div class="grid-element1">
+              <div class="borda">
+                <div class="valores"><p>ACOLHIMENTO</p></div>    
+            
+              </div>
+              </div>
+
+              <div class="grid-element1">
+              <div class="borda">
+                <div class="valores"><p>CRIATIVIDADE</p></div> 
+            
+              </div>
+              </div>
+              <div class="grid-element1">
+            <div class="borda">
+                  
+                <div class="valores"><p>MELHORIA CONTÍNUA</p>    </div>
+            
+              </div> 
+            </div>
+
+
+            <div class="grid-element1">
+                <div class="borda">
+                 
+                <div class="valores"><p>EMPREENDEDORISMO</p></div>    
+            
+              </div>
+             </div>
+            
+            
+              
+            
+            </div><br>
+            <br>
+            <div class="fale">
+                <a href="https://web.whatsapp.com/send?phone=5511954214938&text=Ol%C3%A1%2C%20psic%C3%B3loga%20Karina%21%20Encontrei%20voc%C3%AA%20no%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20atendimentos." target="_blank"><p>Entre em contato</p></a>  
+            </div>
+
+        <br>
+        <div id="servico" class="servico">
+            <h1 class="serv">Serviços</h1><br>
+
+            <h1>Psicoterapia Individual Online</h1><br>
+
+
+
+            <div class="psicoterapia">
+                <img class="psi_img" src="../img/psi_individual.png" alt=""><br><br>
+
+                <div class="psi_text">
+                    <h3> "A terapia da fala é um espaço por você e para você!"</h3><br><br>
+                    <p>
+
+                        O foco é te ajudar a desenvolver habilidades cognitivas e comportamentais em prol da sua saúde psicológica através de teorias e técnicas baseadas na ciência da prática da psicologia. Aonde a transformação acontece na relação terapêutica diminuindo o sofrimento
+                        mental e seus demais sintomas relacionados com seus prejuízos cotidianos. Este é um tratamento fundamental para questões de depressão, ansiedade, luto, estresse, comportamentos autodestrutivos, conflitos de relacionamentos e entre
+                        outras.
+                    </p> <br>
+                    <button class="btn_agendar"><a href="https://web.whatsapp.com/send?phone=5511954214938&text=Ol%C3%A1%2C%20psic%C3%B3loga%20Karina%21%20Encontrei%20voc%C3%AA%20no%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20atendimentos." target="_blank">Agendar Consulta</a> </button>
+                </div>
+
+
+
+            </div>
+
+        </div> <br> <br>
+        <div class="psi_grupal">
+            <h1>Psicoterapia Grupal Online</h1> <br>
+
+            <div class="psicoterapia">
+
+                <img class="psi_img" src="../img/psi_grupo.png" alt=""><br><br>
+                <div class="psi_text">
+                    <h3>
+                        "Grupo terapêutico: uma abordagem de apoio à saúde mental feminina na luta contra a depressão"</h3><br><br>
+                    <p> Este é um grupo terapêutico voltado a promoção da saúde e a criação de apoio psicológico as mulheres que sofrem com a depressão. Com intervenções grupais para te ajudar a aliviar seu sofrimento ao lidar com a depressão.</p> <br>
+                    <button class="btn_agendar"><a href="https://web.whatsapp.com/send?phone=5511954214938&text=Ol%C3%A1%2C%20psic%C3%B3loga%20Karina%21%20Encontrei%20voc%C3%AA%20no%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20atendimentos." target="_blank">Agendar Consulta</a> </button>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+        </div> <br> <br>
+        <div class="plantao_psi">
+            <h1>Plantão Psicológico</h1> <br>
+
+            <div class="psicoterapia">
+                <img style=" width:70vw;" class="psi_img" src="../img/plantao.jpg" alt=""><br><br>
+                <div class="psi_text">
+                    <h3>"Tire o peso dos ombros: Atendimento emergencial para crises e desastres com suporte psicológico e acolhimento emocional"</h3><br><br>
+                    <p>É o serviço de atendimento psicológico de apoio emergencial em situações de crises, emergências e desastres se tratando de uma situação que tire o equilíbrio momentâneo gerando grande sofrimento. Proporcionará suporte emocional, acolhimento,
+                        escuta ativa e serão trabalhadas questões emergentes.</p>
+                    <button class="btn_agendar"><a href="https://web.whatsapp.com/send?phone=5511954214938&text=Ol%C3%A1%2C%20psic%C3%B3loga%20Karina%21%20Encontrei%20voc%C3%AA%20no%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20atendimentos." target="_blank">Agendar Consulta</a> </button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        </div> <br> <br>
+        <div class="palestra">
+            <h1>Palestras</h1> <br>
+            <div class="parent">
+                <div class="div1">
+
+                    <img class="container-img" src="../img/banner.jpeg" alt="">
+
+                    <div class="container-text">
+
+                        <p>
+                            <h3>
+                                " Mulheres à luta! Mulheres unidas superando a depressão."
+                            </h3><br><br> Objetivo: Discutir, refletir e apresentar estratégias para que a mulher desenvolva autocuidado e desenvolva estratégias para lidar com a depressão em suas demandas do dia a dia. Público alvo: Mulheres diagnosticadas
+                            com o transtorno depressivo. e
+                        </p>
+                        <button class="btn_agendar"><a href="https://web.whatsapp.com/send?phone=5511954214938&text=Ol%C3%A1%2C%20psic%C3%B3loga%20Karina%21%20Encontrei%20voc%C3%AA%20no%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20atendimentos." target="_blank">Agendar Consulta</a> </button>
+
+                    </div>
+
+                </div>
+                <div class="div2">
+
+
+                    <img class="container-img" src="../img/banner.jpeg" alt="">
+
+                    <div class="container-text">
+                        <h3>Do isolamento da depressão para a vida: Quando buscar ajuda e como ajudar. </h3><br><br>
+                        <p>
+
+                            Objetivo: Promover psicoeducação sobre a depressão e orientação de como buscar ajuda. Público alvo: Pessoas depressivas e pessoas que desejam buscar ajuda a alguém conhecido que sofre com os sintomas da depressão.
+                        </p>
+                        <button class="btn_agendar"><a href="https://web.whatsapp.com/send?phone=5511954214938&text=Ol%C3%A1%2C%20psic%C3%B3loga%20Karina%21%20Encontrei%20voc%C3%AA%20no%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20atendimentos." target="_blank">Agendar Consulta</a> </button>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+        </div> <br> <br>
+        <div id="ebook" class="ebook">
+            <h1>E-book</h1> <br>
+
+
+            <div class="grid-container grid-container--fill">
+                <div class="grid-element">
+
+
+                    <img class="container-img" src="../img/ebook_img/aumentar_-autoestima.png" alt="">
+
+                    <div class="container-text">
+                        <h3> 5 passos só sobre autoestima . </h3><br>
+                        <p>
+                            Reconheça seus pensamentos negativos: O primeiro passo para melhorar a autoestima é reconhecer seus pensamentos negativos. Às vezes, nossas crenças sobre nós mesmos podem ser prejudiciais e impedir nosso progresso. Identificar esses pensamentos negativos
+                            é o primeiro passo para superá-los.
+
+
+
+                        </p>
+                        <button class="container_btn"><a href="../ebook/Ebook 5 passos só sobre autoestima .pdf" download target="_blank">Leia agora</a></button>
+
+                    </div>
+                </div>
+               
+                <div class="grid-element">
+
+
+                    <img class="container-img" src="../img/ebook_img/autorresponsabilidade.jpg" alt="">
+
+                    <div class="container-text">
+                        <h3>TUDO SOBRE AUTORRESPONSABILIDADE </h3><br>
+                        <p>
+
+                            A autorresponsabilidade é a capacidade de assumir a responsabilidade por nossas ações, escolhas e resultados em nossas vidas.
+                        </p>
+                        <button class="container_btn"><a href="../ebook/TUDO SOBRE AUTORRESPONSABILIDADE (1).pdf" download  target="_blank">Leia agora</a></button>
+
+
+                    </div>
+                </div>
+                
+                <div class="grid-element">
+
+
+                    <img class="container-img" src="../img/ebook_img/amor-proprio.jpg" alt="">
+
+                    <div class="container-text">
+                        <h3>DESENVOLVENDO O AMOR PRÓPRIO EM 6 PASSOS</h3><br>
+                        <p>
+
+                            Desenvolver o amor próprio é fundamental para ter uma vida feliz e saudável. Aqui estão seis passos para ajudá-lo a desenvolver o amor próprio:
+
+
+                        </p>
+                        <button class="container_btn"><a href="../ebook/Ebook DESENVOLVENDO O AMOR PRÓPRIO EM 6 PASSOS.pdf" download  target="_blank">Leia agora</a></button>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div id="artigo" class="artigos">
+                <h1>Artigos</h1> <br>
+                <div class="grid-container grid-container--fill">
+                    <div class="grid-element">
+
+
+                        <img class="container-img" src="../img/artigos/Amar-e-um-investimento-para-pessoas-valentes.jpg" alt="">
+
+                        <div class="container-text">
+                            <h3>Não pare de investir nas coisas que você ama
+                            </h3><br>
+                            <p>
+
+                                Por quantas vezes você se perguntou quem poderia te entender e até mesmo te ouvir? E até percebeu sendo a pessoa desagradável que as poucas pessoas que ainda se relacionava se afastaram, porque não aguentavam te ver deprimida. Já se sentiu mal compreendida
+                                e se calou. Preferiu ficar em silêncio acreditando que nada e nem ninguém poderia te ajudar. A depressão não é apenas um desinteresse geral de si, dos outros e do mundo.
+                            </p>
+                            <button class="container_btn"><a href="https://universoquetocavidaspsicologia.blogspot.com/2023/03/nao-pare-de-investir-nas-coisas-que.html" 
+                              target="_blank">Leia agora</a></button>
+
+                        </div>
+                    </div>
+                    <div class="grid-element">
+
+
+                        <img class="container-img" src="../img/artigos/O QUE ACONTECERIA SE USASSE A EDUCAÇÃO FÍSICA COMO ALIADA NO TRATAMENTO DA DEPRESSÃO.webp" alt="">
+
+                        <div class="container-text">
+                            <h3>O QUE ACONTECERIA SE USASSE A EDUCAÇÃO FÍSICA COMO ALIADA NO TRATAMENTO DA DEPRESSÃO
+                            </h3><br>
+                            <p>
+
+                                A depressão é um transtorno mental comum e uma das principais causas de incapacidade em todo o mundo. Segundo dados da Organização Mundial de Saúde (OMS), estima-se que a depressão afeta mundialmente mais de 350 milhões de pessoas, sendo mais prevalente
+                                nas mulheres.
+                            </p>
+                            <button class="container_btn"><a href="https://universoquetocavidaspsicologia.blogspot.com/2023/03/o-que-aconteceria-se-usasse-educacao.html" 
+                            target="_blank">Leia agora</a></button>
+
+                        </div>
+                    </div>
+                    <div class="grid-element">
+
+
+                        <img class="container-img" src="../img/artigos/liberdade.webp" alt="">
+
+                        <div class="container-text">
+                            <h3>"Passarinho sem asas"
+                            </h3><br>
+                            <p>
+
+                                Vocês já viram um passarinho? É lindo contemplar a beleza dele, o canto e ainda mais o dote de voar... voar alto. Imagine como é ver a vida lá do alto? Existem pessoas que se percebem como passarinhos que voam alto, podem cair as vezes, pousar, mas sempre
+                                retomam seu voo em busca de seus sonhos, liberdade e autorrealização.
+                            </p>
+                            <button class="container_btn"><a href="https://universoquetocavidaspsicologia.blogspot.com/2023/02/passarinho-sem-asas.html" 
+                            target="_blank">Leia agora</a></button>
+                        </div>
+                    </div>
+                    <div class="grid-element">
+
+
+                        <img class="container-img" src="../img/artigos/carta.jpg" alt="">
+
+                        <div class="container-text">
+                            <h3>Minha carta de propósito sobre a minha profissão
+                            </h3><br>
+                            <p>
+
+                                Ok, Formada, credenciada pelo CRP, possibilitada em atuar no mercado de trabalho. Porém, porquê faço o que faço?
+                            </p>
+                            <button class="container_btn"><a href="https://universoquetocavidaspsicologia.blogspot.com/2022/11/minha-carta-de-proposito-sobre-minha.html" 
+                            target="_blank">Leia agora</a></button>
+
+                        </div>
+                    </div>
+                    <div class="grid-element">
+
+
+                        <img class="container-img" src="../img/banner.jpeg" alt="">
+
+                        <div class="container-text">
+                            <h3>Por qual motivo escolhi a psicologia?
+                            </h3><br>
+                            <p>
+
+                                Cresci percebendo a necessidade da saúde mental. Eu olhava para as pessoas, e até mesmo para a minha própria família, e via que a saúde era algo além da ausência de doença. Deparava-me com o sofrimento emocional na vida real e encarei a necessidade do
+                                cuidado da mente de frente.
+                            </p>
+                            <button class="container_btn"><a href="https://universoquetocavidaspsicologia.blogspot.com/2022/10/por-qual-motivo-escolhi-psicologia.html" 
+                            target="_blank">Leia agora</a></button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div> <br> <br>
+            <h1>Redes Sociais</h1>
+
+<div class="redes1">
+
+    <div class="profile1"><img class="profile" src="{{ asset('img/profile1.jpeg') }}" alt=""></div><br>
+
+
+    <a href="https://www.facebook.com/psi.karinabeatriz?_rdc=2&_rdr" target="_blank" class="botao"><img src="{{ asset('img/icon/facebook.png') }}" width="30px" alt=""></a>
+    <a href="https://www.instagram.com/psi.karinabeatriz/" target="_blank" class="botao"><img src="{{ asset('img/icon/instagram.png') }}" width="30px" alt=""></a>
+    <a href="https://web.whatsapp.com/send?phone=5511954214938&text=Ol%C3%A1%2C%20psic%C3%B3loga%20Karina%21%20Encontrei%20voc%C3%AA%20no%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20atendimentos." target="_blank" class="botao"><img src="{{ asset('img/icon/whatsapp.png') }}" width="30px" alt=""></a>
+
+    <a href="https://www.tiktok.com/@psi.karinabeatriz" target="_blank" class="botao"><img src="{{ asset('img/icon/tiktok.png') }}" width="30px" alt=""></a>
+
+    <a href="https://www.youtube.com/@psicologakarinabeatriz9317" target="_blank" class="botao"><img src="{{ asset('img/icon/youtube.png') }}" width="30px" alt=""></a>
+
+    <a href="mailto:karinabeatriz.psico@hotmail.com" target="_blank" class="botao"><img src="{{ asset('img/icon/email.png') }}" width="30px" alt=""></a>
+
+</div>
+<br>
+
+<!-- resources/views/welcome.blade.php -->
+
+<div class="comentarios">
+    <h1>Depoimentos</h1>
+
+    <div class="slideshow-container">
+        @foreach ($depoimentos as $depoimento)
+            <div class="mySlides fade">
+                <div class="grid-element">
+                    <img src="{{ asset('img/icon/virgulas-invertidas.png') }}" alt="" style="width: 5vw;">
+                    <p>{{ $depoimento['mensagem'] }}</p>
+                    <div class="entrevistado">
+                        <p>{{ $depoimento['nome'] }}</p>
+                    </div>
+                </div>
+            </div>
+        @endforeach
+    </div>
+</div>
+
+
+    
+
+
+
+
+
+
+       
+
+ 
+
+
+  <br>
+    <footer class="main_footer container">
+
+        <div class="content">
+            <div class="colfooter">
+
+                <h3 class="titleFooter"> Menu</h3>
+
+                <ul>
+
+                    <li><a href="#" title="Página Inícial">Página Inícial</a></li>
+                    <li><a href="#servicos" title="serviços">Serviços</a></li>
+                    <li><a href="#ebook" title="ebook">Ebook</a></li>
+                    <li><a href="#artigo" title="artigos">Artigos</a></li>
+
+                </ul>
+            </div>
+
+            <!--Col Footer 1-->
+            <div class="colfooter">
+
+                <h3 class="titleFooter"> Contato</h3>
+            <i class="icon icon-mail"></i> <a href="mailto: karinabeatriz.psico@hotmail.com" style="      color:whitesmoke;"> karinabeatriz.psico@hotmail.com</a><br>
+
+                <a href="https://web.whatsapp.com/send?phone=+5511954214938?text=Ol%C3%A1%2C%20psic%C3%B3loga%20Karina%21%20Encontrei%20voc%C3%AA%20no%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20atendimentos." style="  text-decoration: none;
+                    color:whitesmoke;" target="_blank">(11) 95421-4938</p>
+                </a>
+            </div>
+        
+            <!--Col Footer 2-->
+            <div class="colfooter">
+
+                <h3 class="titleFooter"> Redes Sociais</h3>
+
+                <a href="https://www.facebook.com/psi.karinabeatriz?_rdc=2&_rdr" target="_blank"  class="botao"><img src="../img/icon/facebook.png" width="30px" target="_blank" alt=""></i>
+                    </span>
+                </a>
+                <a href="https://www.instagram.com/psi.karinabeatriz/" target="_blank"  class="botao"><span> <img src="../img/icon/instagram.png" width="30px"  target="_blank" alt=""></i> </span></a>
+                <a href="https://web.whatsapp.com/send?phone=5511954214938&text=Ol%C3%A1%2C%20psic%C3%B3loga%20Karina%21%20Encontrei%20voc%C3%AA%20no%20seu%20site%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20seus%20atendimentos." target="_blank"
+                    class="botao"><span> <img src="../img/icon/whatsapp.png" width="30px" alt=""> </span></a>
+
+                    <a href="https://www.tiktok.com/@psi.karinabeatriz" target="_blank"  class="botao"><span> <img src="../img/icon/tiktok.png" width="30px"  target="_blank" alt=""></i> </span></a>
+                 
+                    <a href="https://www.youtube.com/@psicologakarinabeatriz9317" target="_blank"  class="botao"><img src="../img/icon/youtube.png" width="30px" target="_blank" alt=""></i>
+                    </span>
+                </a>
+
+                    <a href="mailto: karinabeatriz.psico@hotmail.com" target="_blank"  class="botao"><span> <img src="../img/icon/email.png" width="30px"  target="_blank" alt=""></i> </span></a>
+
+                
+            </div>
+            <!--Col Footer 3-->
+
+            <!--Contant-->
+
+    </footer>
+    <script src="{{ asset('js/script.js') }}"></script>
+
+
+</body>
+
+</html>
